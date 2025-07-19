@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="https://kit.fontawesome.com/eda0a30f6a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Hassaan</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()" ></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Hassaan Tahir</span><br> From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------------About-------------------->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Dark Jungle Green Texture Background Motivation Inspiration Quote Instagram Post.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fuga eius ducimus, esse nisi
+                        tenetur sunt, dolore quasi omnis eligendi tempora voluptate debitis numquam. Inventore saepe a
+                        aspernatur placeat dolor.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Designing Web/App interfaces</li>
+                            <li><span>App Development</span><br>Designing Web/App interfaces</li>
+                            
+                        </ul>
+                        
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - 2025</span><br>FIT Computer Institute</li>
+                            <li><span>2022 - 2024</span><br>Self Learning</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Graduation</span><br>University Of Education, Lahore</li>
+                            <li><span>Intermediate</span><br>Punjab Group Of Colleges</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------services------------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores corporis expedita ipsam, odio blanditiis exercitationem ipsa deserunt non sint, amet delectus molestiae doloremque voluptatibus cumque dignissimos! Amet, quod numquam? Ut.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/Ux Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores corporis expedita ipsam, odio blanditiis exercitationem ipsa deserunt non sint, amet delectus molestiae doloremque voluptatibus cumque dignissimos! Amet, quod numquam? Ut.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!----------------portfolio------------------->
+    <div id="Portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.jpg">
+                    <div class="layer">
+                        <h3>Social Media</h3>
+                        <p>The app connects yuu to the talented people arround the world.
+                            Download it from play store</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects yuu to the talented people arround the world.
+                            Download it from play store</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects yuu to the talented people arround the world.
+                            Download it from play store</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+<!-------------contact--------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row ">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> hassaantahir40@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 03446900813</p>
+                        <div class="social-icon">
+                            <a href="https://www.facebook.com/share/19gPN3Lhbv/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/hassaan_6437?igsh=MW1ud2UwM2MzbjJsdg=="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="www.linkedin.com/in/muhammad-hassaan-tahir-299836337"><i class="fa-brands fa-linkedin"></i></a>
+                            
+
+                        </div>
+                        <a href="images/My CV.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="copyright">
+            <p>Copyright © Hassaan . Made with <i class="fa-solid fa-heart"></i> by Hassaan Coder</p>
+        </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzp1bfvogfjLfVOc4ZZ5x8w8Nlj8xzBKXQjMqA7_6K4Z1rubYnoWRCcToGe_BPTXf_l/exec'
+  const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+        
+            msg.innerHTML = ""
+        
+      },5000)
+      form.reset()
+      })
+      
+      
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+
+</html>
